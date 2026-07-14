@@ -1,8 +1,8 @@
 import tensorflow as tf
 print(tf.__version__)
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from keras.models import Sequential
+from keras.layers import Dense
 import numpy as np
 
 #1. 데이터
