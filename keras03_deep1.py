@@ -27,7 +27,7 @@ model.add(Dense(1, input_dim=10))
 model.compile(loss='mse', optimizer='adam')
 model.fit(x, y, epochs=100)
 
-#4. 평가, 예
+#4. 평가, 예측
 result = model.predict(np.array([7]))
 print("4의 예측값 : ", result)
 
